@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap");
+
+* {
+  font-family: "Lato", sans-serif;
+  --main-red: rgb(212, 13, 13);
+}
+
+button {
+  background-color: var(--main-red);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+}
+
+.app-title {
+  margin-top: 100px;
+}
+
+.container {
+  margin: 50px auto;
+  width: 90%;
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.controls-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 50px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+.controls-form input {
+  margin-left: 5px;
+}
+
+.controls-form button {
+  margin-top: 20px;
+}
+
+.grid-container {
+  margin: 50px auto;
+}
+
+.grid-controls {
+  margin-top: 50px;
+}
+
+.grid-controls select {
+  height: 36px;
+  margin-right: 20px;
+  min-width: 100px;
+  background-color: var(--main-red);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 5px;
+}
+
+.grid-controls button {
+  background-color: black;
+}

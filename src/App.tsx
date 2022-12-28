@@ -3,7 +3,7 @@ import { Maze } from "./components/Maze/Maze"
 function App() {
   return (
     <div>
-      <h3>Algorithm visualization</h3>
+      <h1 className="title app-title">Algorithm visualization</h1>
       <Maze />
     </div>
   )
